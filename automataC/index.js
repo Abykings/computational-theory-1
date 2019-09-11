@@ -19,9 +19,10 @@ function analyzeLine(string, dictionary, lineCount) {
                     var index = e.indexOf(w);
                     if ((r == e.charAt(index - 1)) && (r == e.charAt(index + w.length))) {
                         console.log([w, lineCount, e.indexOf(w)]);
+                        out.push([w, lineCount, e.indexOf(w)]);
                     }
                 });
-                out.push([w, lineCount, e.indexOf(w)]);
+                
             }
         });
     });
