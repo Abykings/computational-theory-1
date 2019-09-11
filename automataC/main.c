@@ -7,7 +7,6 @@ typedef struct
     float precio;
     int anio;
 }Libro;
-    
 Libro* crearLibro(Libro* lib);
 void solicitarDatos(Libro* lib);
 void mostrarDatos(Libro* lib);
