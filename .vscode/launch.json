@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Primos",
+            "request": "launch",
+            "mainClass": "Primos",
+            "projectName": "computational-theory-1_485cdf73"
+        }
+    ]
+}
